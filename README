@@ -1,0 +1,12 @@
+libpnghelpers
+
+This library is based on the routines in the tutorial provided by Ben Bullock at 
+http://www.lemoda.net/c/write-png/
+
+It has since received some modifications by Jonathan Michael Foonlan Tsang
+(jmft2 at cam dot ac dot uk).
+
+To install, change INSTALL_PREFIX in the Makefile to point to the right
+directory (probably "/usr/local" on Unix-like systems.) 
+
+To use, provide the flags -lpnghelpers -lpng.
