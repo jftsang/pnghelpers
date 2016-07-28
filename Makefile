@@ -1,4 +1,5 @@
-INSTALL_PREFIX=/Users/jmft2/local
+INSTALL_PREFIX=/home/jmft2/local
+CFLAGS=-std=c11
 
 all: libpnghelpers.a
 
